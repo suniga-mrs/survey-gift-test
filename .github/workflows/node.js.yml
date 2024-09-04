@@ -29,11 +29,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: Install
+    - name: Install Dependencies
       run: npm ci
     - name: Build
       run: npm run build
-    - name: Deploy
+    - name: Deploy to Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
           folder: dist/spa
