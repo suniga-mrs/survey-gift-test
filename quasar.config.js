@@ -55,14 +55,14 @@ module.exports = configure(function (/* ctx */) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      // publicPath: '/',
+      publicPath: '/survey-gift-test',
       // analyze: true,
       // env: {},
       // rawDefine: {}
       // ignorePublicFolder: true,
       // minify: false,
       // polyfillModulePreload: true,
-      // distDir
+      // distDir: '../dist/',
 
       // extendViteConf (viteConf) {},
       // viteVuePluginOptions: {},
